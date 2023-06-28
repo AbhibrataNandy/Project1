@@ -1,13 +1,33 @@
-.border_section{
+.container{
     border: 5px solid rgb(253, 249, 249);
     padding: 45px 30px 30px; /*The first value 40px represents the top padding, 20px represents the right and 
                                left padding, and the second 20px represents the bottom padding*/
     display: inline-block;
     max-width: 100%;
+    background-color: transparent;
+    background-size: cover;
 }
+
+.linkedin_link .LinkedInicon {
+    display: none;
+  }
+  
+.linkedin_link:hover .LinkedInicon {
+    display: inline;
+  }
+
+
+.facebook_link .Facebookicon {
+    display: none;
+  }
+  
+.facebook_link:hover .Facebookicon {
+    display: inline-block;
+  }
+  
 body{
     margin: 40px;
-    background-color: blue;
+    background-image: url("https://www.hdwallpapers.in/download/blue_lines_digital_art_background_4k_hd_abstract-HD.jpg");
     text-align: center;
     color: lavenderblush;
     font-size: large;
