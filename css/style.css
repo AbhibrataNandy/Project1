@@ -31,6 +31,8 @@ body{
     text-align: center;
     color: lavenderblush;
     font-size: large;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
             
 .icon {
@@ -52,5 +54,6 @@ a{
     color: rgb(221, 242, 30);
 }
 .hello{
-    font-size: 25px;
+    font-size: 22px;
+    line-height: 40px;
 }
