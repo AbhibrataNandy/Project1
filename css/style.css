@@ -14,7 +14,7 @@
 .linkedin_link:hover .LinkedInicon {
     display: inline;
   }
-
+  
 
 .facebook_link .Facebookicon {
     display: none;
@@ -24,6 +24,7 @@
   }
   
 body{
+    top: 45%;
     margin: 40px;
     /* background-image: url("https://www.hdwallpapers.in/download/blue_lines_digital_art_background_4k_hd_abstract-HD.jpg");  */
     text-align: center;
