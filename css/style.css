@@ -1,6 +1,7 @@
 .container{
-    top: 45%;
-    border: 5px solid rgb(253, 249, 249);
+    margin-top: 1%;
+    margin-left: 5%;
+    border: 0.7vw solid rgb(253, 249, 249);
     padding: 45px 30px 30px; /*The first value 40px represents the top padding, 20px represents the right and 
                                left padding, and the second 20px represents the bottom padding*/
     display: inline-flexbox;                              
@@ -9,7 +10,9 @@
     background-size: cover;
     align-items: center;
     justify-content: center;
-
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .linkedin_link .LinkedInicon {
@@ -18,7 +21,6 @@
 .linkedin_link:hover .LinkedInicon {
     display: inline;
   }
-  
 
 .facebook_link .Facebookicon {
     display: none;
@@ -28,25 +30,25 @@
   }
   
 body{
-    margin: 40px;
+    margin: 9vw;
     /* background-image: url("https://www.hdwallpapers.in/download/blue_lines_digital_art_background_4k_hd_abstract-HD.jpg");  */
     text-align: center;
     color: lavenderblush;
-    font-size: large;
-    letter-spacing: 1px;
-    line-height: 30px;
+    font-size: 1.4vw;
+    letter-spacing: 0.1vw;
+    line-height: 2.5vw;
     justify-content: center;
     align-items: center;
     display: flex;
 }
             
-.icon {
-    font-size: 16px; /* Initial size of the icon */
+.links {
+    font-size: 1.6vw; /* Initial size of the icon */
     transition: font-size 0.3s; /* Transition property for smooth animation */
     }
 
-.icon:hover {
-    font-size: 25px; /* Enlarged size of the icon on hover */
+.links:hover {
+    font-size: 3vw; /* Enlarged size of the icon on hover */
     cursor: pointer;
     }
 
@@ -59,6 +61,10 @@ a{
     color: rgb(221, 242, 30);
 }
 .hello{
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 1.9vw;
+    line-height: 4vw;
+}
+
+.icon img{
+    height: 2.5vw; /* Adjust the percentage as desired */
 }
