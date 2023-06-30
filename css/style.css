@@ -7,6 +7,7 @@
     max-width: 100%;
     background-color: transparent;
     background-size: cover;
+
 }
 
 .linkedin_link .LinkedInicon {
@@ -32,6 +33,9 @@ body{
     font-size: large;
     letter-spacing: 1px;
     line-height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
             
 .icon {
