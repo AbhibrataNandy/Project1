@@ -10,9 +10,6 @@
     background-size: cover;
     align-items: center;
     justify-content: center;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .linkedin_link .LinkedInicon {
@@ -34,7 +31,7 @@ body{
     /* background-image: url("https://www.hdwallpapers.in/download/blue_lines_digital_art_background_4k_hd_abstract-HD.jpg");  */
     text-align: center;
     color: lavenderblush;
-    font-size: 1.4vw;
+    font-size: 1.41vw;
     letter-spacing: 0.1vw;
     line-height: 2.5vw;
     justify-content: center;
@@ -68,3 +65,12 @@ a{
 .icon img{
     height: 2.5vw; /* Adjust the percentage as desired */
 }
+
+button {
+    background-color: red;
+    color: rgb(82, 236, 39);
+    padding: 10px;
+    border-radius: 5px;
+    font-style: oblique;
+  }
+  
